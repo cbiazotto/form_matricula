@@ -1,2 +1,5 @@
-# Definir que todos os arquivos devem usar LF no repositório
+# Usar LF no repositório (recomendado para multiplataforma)
 * text=auto eol=lf
+
+# Ou, para Windows-only:
+* text eol=crlf
