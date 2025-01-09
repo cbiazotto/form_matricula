@@ -1,5 +1,2 @@
 # Definir que todos os arquivos devem usar LF no repositório
 * text=auto eol=lf
-
-# Forçar LF para arquivos específicos, como SVG
-*.svg text eol=lf
