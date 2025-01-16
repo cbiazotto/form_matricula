@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-::root {
+:root {
     --brand-light: #F67841;
     --brand-mid: #F3541C;
     --brand-dark: #E43A12;
@@ -34,3 +34,19 @@
     --text-tertiary: #8F8881;
     --text-highlight: #E43A12;
 }
+
+body {
+    overflow: hidden;
+    font: var(--text);
+    color: var(--text-secondary);
+}
+
+h1,h2 {
+    color: var(--text-primary);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
