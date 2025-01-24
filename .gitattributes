@@ -1,5 +1,1 @@
-# Usar LF no repositório (recomendado para multiplataforma)
-* text=auto eol=lf
-
-# Ou, para Windows-only:
-* text eol=crlf
+*.svg -text
